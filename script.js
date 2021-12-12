@@ -10,7 +10,7 @@ function filter(arr, filterForFunction) {
 	let arrayWithDivision = [];
 
 	for (let i = 0; i < arr.length; i++) {
-		const elem = filterForFunction(arr[i], i, arr);
+		const elem = filterForFunction(arr[i]);
 		if (elem !== undefined) arrayWithDivision.push(elem);
 	}
 
